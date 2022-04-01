@@ -1,7 +1,7 @@
 from customer import Customer
 from product import Product
 from shoppingcart import ShoppingCart
-customer = ('Mike')
+customer = Customer('mike')
 banana = Product("Bananas", 3.89, "produce")
 orange = Product("Oranges", 1.85, "produce")
 pineapple = Product("Pineapple", 2.57, "produce")
